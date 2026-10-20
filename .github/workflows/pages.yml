@@ -1,0 +1,91 @@
+name: 検証と GitHub Pages への公開
+
+on:
+  pull_request:
+    paths:
+      - "app/**"
+      - "content/**"
+      - "scripts/**"
+      - "pyproject.toml"
+      - "uv.lock"
+      - ".github/workflows/pages.yml"
+  push:
+    branches: ["main"]
+    paths:
+      - "app/**"
+      - "content/**"
+      - "scripts/**"
+      - "pyproject.toml"
+      - "uv.lock"
+      - ".github/workflows/pages.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: pages-${{ github.ref }}
+  cancel-in-progress: ${{ github.event_name == 'pull_request' }}
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: リポジトリを取得する
+        uses: actions/checkout@v4
+
+      - name: Node.js を用意する
+        uses: actions/setup-node@v4
+        with:
+          node-version-file: .node-version
+          cache: npm
+          cache-dependency-path: app/package-lock.json
+
+      - name: uv を用意する
+        uses: astral-sh/setup-uv@v6
+
+      - name: データを検証する
+        run: |
+          uv sync --locked
+          uv run scripts/validate_content.py --complete $(python3 -c "import json;print(' '.join(i['id'] for i in json.load(open('content/exams.json'))))")
+
+      - name: 依存関係を入れる
+        working-directory: app
+        run: npm ci
+
+      - name: 型を検査する
+        working-directory: app
+        run: npm run typecheck
+
+      - name: 単体テストを実行する
+        working-directory: app
+        run: npm test
+
+      - name: ビルドする
+        working-directory: app
+        run: npm run build
+
+      - name: Pages を用意する
+        if: github.event_name != 'pull_request'
+        uses: actions/configure-pages@v5
+
+      - name: 成果物をアップロードする
+        if: github.event_name != 'pull_request'
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: app/dist
+
+  deploy:
+    if: github.event_name != 'pull_request'
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: GitHub Pages へ載せる
+        id: deployment
+        uses: actions/deploy-pages@v4
