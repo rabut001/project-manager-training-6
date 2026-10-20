@@ -18,7 +18,7 @@ IPA 公開のプロジェクトマネージャ試験・午前Ⅱを、1問ずつ
 
 ## 技術
 
-- 開発は `.devcontainer/` の開発コンテナで行う。中身は Node.js 24（npm）、uv（Python 3.13 を `pyproject.toml` に従って用意）、tesseract（日本語）。ホストに Node.js や Python を入れない。
+- 開発は `.devcontainer/` の開発コンテナで行う。中身は Node.js 24（npm）、uv（Python 3.13 を `pyproject.toml` に従って用意）、tesseract（日本語）、GitHub CLI。ホストに Node.js や Python を入れない。
 - 画面は `app/` の Vite + React + TypeScript。UI ライブラリとルーターのライブラリは使わない。
 - 画面は切り出し済みの画像と JSON を読む。ブラウザでは PDF を描画しない。
 - 検証は `tsc`、Vitest（進捗の保存と復元）、`scripts/validate_content.py`（データの整合）。画面は E2E テストを置かず、`specs/` の確認表で見る。

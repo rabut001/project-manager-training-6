@@ -14,7 +14,7 @@ IPA が公開しているプロジェクトマネージャ試験の午前Ⅱを�
 | `scripts/` | PDF の取得、問題画像の切り出し、正解の抽出、データの検証（Python） |
 | `content/` | 回ごとの JSON、問題画像、一覧 `exams.json`。サイトが読む元データ |
 | `app/` | 演習サイト（Vite + React + TypeScript） |
-| `.devcontainer/` | 開発コンテナ（Node.js 24、uv、tesseract） |
+| `.devcontainer/` | 開発コンテナ（Node.js 24、uv、tesseract、GitHub CLI） |
 | `.github/workflows/` | 検証と GitHub Pages への公開 |
 | `specs/` | アプリを修正するときの管理資料 |
 
