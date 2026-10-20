@@ -1,0 +1,342 @@
+{
+  "2025-r07-aki": {
+    "title": "令和7年度秋期",
+    "page": "https://www.ipa.go.jp/shiken/mondai-kaiotu/2025r07.html",
+    "files": {
+      "am2-mondai.pdf": {
+        "url": "https://www.ipa.go.jp/shiken/mondai-kaiotu/nl10bi0000009lh8-att/2025r07a_pm_am2_qs.pdf",
+        "original": "2025r07a_pm_am2_qs.pdf",
+        "bytes": 1945315,
+        "sha256": "a19d080c2d6734e6f0fb8a8849ca53d60b33b704f8cf34e7873a44ef8d477444",
+        "retrieved": "2026-10-20"
+      },
+      "am2-kaitou.pdf": {
+        "url": "https://www.ipa.go.jp/shiken/mondai-kaiotu/nl10bi0000009lh8-att/2025r07a_pm_am2_ans.pdf",
+        "original": "2025r07a_pm_am2_ans.pdf",
+        "bytes": 30140,
+        "sha256": "589a296ac6512ddebfa9e8b03e7f1ed3f7941c51d0ec60132caed5bbcc178b65",
+        "retrieved": "2026-10-20"
+      }
+    }
+  },
+  "2024-r06-aki": {
+    "title": "令和6年度秋期",
+    "page": "https://www.ipa.go.jp/shiken/mondai-kaiotu/2024r06.html",
+    "files": {
+      "am2-mondai.pdf": {
+        "url": "https://www.ipa.go.jp/shiken/mondai-kaiotu/m42obm000000afqx-att/2024r06a_pm_am2_qs.pdf",
+        "original": "2024r06a_pm_am2_qs.pdf",
+        "bytes": 2020067,
+        "sha256": "68a846a5a6968d445ce3f127379aa68474e60452a982bc8ef7c89db970b9b832",
+        "retrieved": "2026-10-20"
+      },
+      "am2-kaitou.pdf": {
+        "url": "https://www.ipa.go.jp/shiken/mondai-kaiotu/m42obm000000afqx-att/2024r06a_pm_am2_ans.pdf",
+        "original": "2024r06a_pm_am2_ans.pdf",
+        "bytes": 30137,
+        "sha256": "3404e8a12575634025534beee4d85d45c4b7b027ba9afe87c6b4a96f90eb8e54",
+        "retrieved": "2026-10-20"
+      }
+    }
+  },
+  "2023-r05-aki": {
+    "title": "令和5年度秋期",
+    "page": "https://www.ipa.go.jp/shiken/mondai-kaiotu/2023r05.html",
+    "files": {
+      "am2-mondai.pdf": {
+        "url": "https://www.ipa.go.jp/shiken/mondai-kaiotu/ps6vr70000010d6y-att/2023r05a_pm_am2_qs.pdf",
+        "original": "2023r05a_pm_am2_qs.pdf",
+        "bytes": 2365581,
+        "sha256": "7276c2f972cf276c588ba979b670ec6edf37e7fb1e14e3d76f3fa2c9f336f4f5",
+        "retrieved": "2026-10-20"
+      },
+      "am2-kaitou.pdf": {
+        "url": "https://www.ipa.go.jp/shiken/mondai-kaiotu/ps6vr70000010d6y-att/2023r05a_pm_am2_ans.pdf",
+        "original": "2023r05a_pm_am2_ans.pdf",
+        "bytes": 29550,
+        "sha256": "d63a41f731fb600279fafe907a6803f24bd40ef91e2912071732e0756b7a599a",
+        "retrieved": "2026-10-20"
+      }
+    }
+  },
+  "2022-r04-aki": {
+    "title": "令和4年度秋期",
+    "page": "https://www.ipa.go.jp/shiken/mondai-kaiotu/2022r04.html",
+    "files": {
+      "am2-mondai.pdf": {
+        "url": "https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt80000008smf-att/2022r04a_pm_am2_qs.pdf",
+        "original": "2022r04a_pm_am2_qs.pdf",
+        "bytes": 1980169,
+        "sha256": "8c4f52bf24a81c34d078f4f719145bb2eade14313d2603e4d53f184b4a2afef3",
+        "retrieved": "2026-10-20"
+      },
+      "am2-kaitou.pdf": {
+        "url": "https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt80000008smf-att/2022r04a_pm_am2_ans.pdf",
+        "original": "2022r04a_pm_am2_ans.pdf",
+        "bytes": 40015,
+        "sha256": "21045d79e77a917534864be0d94044d542557372629d8c176ec9eb06ea21ec7d",
+        "retrieved": "2026-10-20"
+      }
+    }
+  },
+  "2021-r03-aki": {
+    "title": "令和3年度秋期",
+    "page": "https://www.ipa.go.jp/shiken/mondai-kaiotu/2021r03.html",
+    "files": {
+      "am2-mondai.pdf": {
+        "url": "https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt8000000apad-att/2021r03a_pm_am2_qs.pdf",
+        "original": "2021r03a_pm_am2_qs.pdf",
+        "bytes": 2037469,
+        "sha256": "04b2d2ca38e5fd6c0c27d7e481026ccfc5431fff7b60386752d5ae186901043e",
+        "retrieved": "2026-10-20"
+      },
+      "am2-kaitou.pdf": {
+        "url": "https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt8000000apad-att/2021r03a_pm_am2_ans.pdf",
+        "original": "2021r03a_pm_am2_ans.pdf",
+        "bytes": 8757,
+        "sha256": "1f60ccd5d66c0ce3449010e5faab64506324a3ba9f5df289096e167120a22115",
+        "retrieved": "2026-10-20"
+      }
+    }
+  },
+  "2020-r02-oct": {
+    "title": "令和2年度10月",
+    "page": "https://www.ipa.go.jp/shiken/mondai-kaiotu/2020r02.html",
+    "files": {
+      "am2-mondai.pdf": {
+        "url": "https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt8000000d05l-att/2020r02o_pm_am2_qs.pdf",
+        "original": "2020r02o_pm_am2_qs.pdf",
+        "bytes": 1947395,
+        "sha256": "133344c6c6b4a1df6e93c462cf7c5496add245b6bc84c757c2b9bfb0c83b2773",
+        "retrieved": "2026-10-20"
+      },
+      "am2-kaitou.pdf": {
+        "url": "https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt8000000d05l-att/2020r02o_pm_am2_ans.pdf",
+        "original": "2020r02o_pm_am2_ans.pdf",
+        "bytes": 38055,
+        "sha256": "209d7142736d095ca3aa923deecdbf7d4cde45e6adcf11a88316a985b5b8785b",
+        "retrieved": "2026-10-20"
+      }
+    }
+  },
+  "2019-h31-haru": {
+    "title": "平成31年度春期",
+    "page": "https://www.ipa.go.jp/shiken/mondai-kaiotu/2019h31.html",
+    "files": {
+      "am2-mondai.pdf": {
+        "url": "https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt8000000ddiw-att/2019h31h_pm_am2_qs.pdf",
+        "original": "2019h31h_pm_am2_qs.pdf",
+        "bytes": 1951169,
+        "sha256": "7273d388f0abda9c3c71d3bc5acf3a78b36b50c38f39c084a1816cea1e0c3545",
+        "retrieved": "2026-10-20"
+      },
+      "am2-kaitou.pdf": {
+        "url": "https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt8000000ddiw-att/2019h31h_pm_am2_ans.pdf",
+        "original": "2019h31h_pm_am2_ans.pdf",
+        "bytes": 55125,
+        "sha256": "c64e6155349b9a22e25ea88068fe8e6ca8669db56c71303d9f81cff73cb9496d",
+        "retrieved": "2026-10-20"
+      }
+    }
+  },
+  "2018-h30-haru": {
+    "title": "平成30年度春期",
+    "page": "https://www.ipa.go.jp/shiken/mondai-kaiotu/2018h30.html",
+    "files": {
+      "am2-mondai.pdf": {
+        "url": "https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt8000000fabr-att/2018h30h_pm_am2_qs.pdf",
+        "original": "2018h30h_pm_am2_qs.pdf",
+        "bytes": 1986101,
+        "sha256": "ff17998620a7e2e059a855033e3253755c7cffe0477fc7a1e8fd25a97c40ff38",
+        "retrieved": "2026-10-20"
+      },
+      "am2-kaitou.pdf": {
+        "url": "https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt8000000fabr-att/2018h30h_pm_am2_ans.pdf",
+        "original": "2018h30h_pm_am2_ans.pdf",
+        "bytes": 38222,
+        "sha256": "673b1b378ec7da029820ee65e985c17c44baaaec2187fcdbe53b6310c70d5905",
+        "retrieved": "2026-10-20"
+      }
+    }
+  },
+  "2017-h29-haru": {
+    "title": "平成29年度春期",
+    "page": "https://www.ipa.go.jp/shiken/mondai-kaiotu/2017h29.html",
+    "files": {
+      "am2-mondai.pdf": {
+        "url": "https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt8000000fzx1-att/2017h29h_pm_am2_qs.pdf",
+        "original": "2017h29h_pm_am2_qs.pdf",
+        "bytes": 2080781,
+        "sha256": "69264f5920ec012174e71d110e91d1e43d5af3b97e9f79fd7917e750ad3e2a2c",
+        "retrieved": "2026-10-20"
+      },
+      "am2-kaitou.pdf": {
+        "url": "https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt8000000fzx1-att/2017h29h_pm_am2_ans.pdf",
+        "original": "2017h29h_pm_am2_ans.pdf",
+        "bytes": 54450,
+        "sha256": "0ce158b0e9ef32af61f91e65132770956daf84aace59aea8cd6504066d1259b2",
+        "retrieved": "2026-10-20"
+      }
+    }
+  },
+  "2016-h28-haru": {
+    "title": "平成28年度春期",
+    "page": "https://www.ipa.go.jp/shiken/mondai-kaiotu/2016h28.html",
+    "files": {
+      "am2-mondai.pdf": {
+        "url": "https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt8000000gn5o-att/2016h28h_pm_am2_qs.pdf",
+        "original": "2016h28h_pm_am2_qs.pdf",
+        "bytes": 2045717,
+        "sha256": "f6626b0c304f7d14d1173ba2792dece6aad726134b6c0a453c43c99f295f381d",
+        "retrieved": "2026-10-20"
+      },
+      "am2-kaitou.pdf": {
+        "url": "https://www.ipa.go.jp/shiken/mondai-kaiotu/gmcbt8000000gn5o-att/2016h28h_pm_am2_ans.pdf",
+        "original": "2016h28h_pm_am2_ans.pdf",
+        "bytes": 73113,
+        "sha256": "03a4bd6d85d0bccf9f4aaf1fab25ff031c234f5e45d279f2722c544d6fa5dbfa",
+        "retrieved": "2026-10-20"
+      }
+    }
+  },
+  "2015-h27-haru": {
+    "title": "平成27年度春期",
+    "page": "https://www.ipa.go.jp/shiken/mondai-kaiotu/2015h27.html",
+    "files": {
+      "am2-mondai.pdf": {
+        "url": "https://www.ipa.go.jp/shiken/mondai-kaiotu/ug65p90000000f52-att/2015h27h_pm_am2_qs.pdf",
+        "original": "2015h27h_pm_am2_qs.pdf",
+        "bytes": 2031310,
+        "sha256": "7963c85356182a5189b9b719ac2f686d718faae4b7bc6c48d90f08548ea78a77",
+        "retrieved": "2026-10-20"
+      },
+      "am2-kaitou.pdf": {
+        "url": "https://www.ipa.go.jp/shiken/mondai-kaiotu/ug65p90000000f52-att/2015h27h_pm_am2_ans.pdf",
+        "original": "2015h27h_pm_am2_ans.pdf",
+        "bytes": 51054,
+        "sha256": "a56225c9798b4fcefd0b6ca6ee95b5f5fb92e7ef6092a1db29758f578bc545e7",
+        "retrieved": "2026-10-20"
+      }
+    }
+  },
+  "2014-h26-haru": {
+    "title": "平成26年度春期",
+    "page": "https://www.ipa.go.jp/shiken/mondai-kaiotu/2014h26.html",
+    "files": {
+      "am2-mondai.pdf": {
+        "url": "https://www.ipa.go.jp/shiken/mondai-kaiotu/ug65p90000001dzu-att/2014h26h_pm_am2_qs.pdf",
+        "original": "2014h26h_pm_am2_qs.pdf",
+        "bytes": 2111533,
+        "sha256": "6c41362f26446acec9c8dd7a743aa0fab47e5e074b53f070da7f819edb5f2a7c",
+        "retrieved": "2026-10-20"
+      },
+      "am2-kaitou.pdf": {
+        "url": "https://www.ipa.go.jp/shiken/mondai-kaiotu/ug65p90000001dzu-att/2014h26h_pm_am2_ans.pdf",
+        "original": "2014h26h_pm_am2_ans.pdf",
+        "bytes": 58853,
+        "sha256": "3a4c58006278428a2b4876756bf80b357536b23944a539d21a221f63ea3479e2",
+        "retrieved": "2026-10-20"
+      }
+    }
+  },
+  "2013-h25-haru": {
+    "title": "平成25年度春期",
+    "page": "https://www.ipa.go.jp/shiken/mondai-kaiotu/2013h25.html",
+    "files": {
+      "am2-mondai.pdf": {
+        "url": "https://www.ipa.go.jp/shiken/mondai-kaiotu/ug65p90000002e6g-att/2013h25h_pm_am2_qs.pdf",
+        "original": "2013h25h_pm_am2_qs.pdf",
+        "bytes": 1799931,
+        "sha256": "f8b846f3802619d4541c40d4ce85772f2f81559772fde028d166df17ea510d06",
+        "retrieved": "2026-10-20"
+      },
+      "am2-kaitou.pdf": {
+        "url": "https://www.ipa.go.jp/shiken/mondai-kaiotu/ug65p90000002e6g-att/2013h25h_pm_am2_ans.pdf",
+        "original": "2013h25h_pm_am2_ans.pdf",
+        "bytes": 56665,
+        "sha256": "bfe8e8086a4223dc4757fdfb339092fcf6043e2533172fe67225b240638b5aea",
+        "retrieved": "2026-10-20"
+      }
+    }
+  },
+  "2012-h24-haru": {
+    "title": "平成24年度春期",
+    "page": "https://www.ipa.go.jp/shiken/mondai-kaiotu/2012h24.html",
+    "files": {
+      "am2-mondai.pdf": {
+        "url": "https://www.ipa.go.jp/shiken/mondai-kaiotu/ug65p900000038er-att/2012h24h_pm_am2_qs.pdf",
+        "original": "2012h24h_pm_am2_qs.pdf",
+        "bytes": 1850268,
+        "sha256": "be2b8c4c036aa26a73358cf20b86a0111ff74b86436d66ef9d8775fc50569553",
+        "retrieved": "2026-10-20"
+      },
+      "am2-kaitou.pdf": {
+        "url": "https://www.ipa.go.jp/shiken/mondai-kaiotu/ug65p900000038er-att/2012h24h_pm_am2_ans.pdf",
+        "original": "2012h24h_pm_am2_ans.pdf",
+        "bytes": 56564,
+        "sha256": "24f9ed60bf688b31a0b7badf4051ca438ebb92fe943797f0c6cbc7349335fdd0",
+        "retrieved": "2026-10-20"
+      }
+    }
+  },
+  "2011-h23-tokubetsu": {
+    "title": "平成23年度特別",
+    "page": "https://www.ipa.go.jp/shiken/mondai-kaiotu/2011h23.html",
+    "files": {
+      "am2-mondai.pdf": {
+        "url": "https://www.ipa.go.jp/shiken/mondai-kaiotu/ug65p90000003ya2-att/2011h23tokubetsu_pm_am2_qs.pdf",
+        "original": "2011h23tokubetsu_pm_am2_qs.pdf",
+        "bytes": 1111990,
+        "sha256": "b1e30e57621d8fac692d697d822a26933f5cb585ebe94e95f8f05bf41767a133",
+        "retrieved": "2026-10-20"
+      },
+      "am2-kaitou.pdf": {
+        "url": "https://www.ipa.go.jp/shiken/mondai-kaiotu/ug65p90000003ya2-att/2011h23tokubetsu_pm_am2_ans.pdf",
+        "original": "2011h23tokubetsu_pm_am2_ans.pdf",
+        "bytes": 37463,
+        "sha256": "7cd060fcd35cd5dc475deac1079cb6740f625c529e8201b9dfbdfc22121cc952",
+        "retrieved": "2026-10-20"
+      }
+    }
+  },
+  "2010-h22-haru": {
+    "title": "平成22年度春期",
+    "page": "https://www.ipa.go.jp/shiken/mondai-kaiotu/2010h22.html",
+    "files": {
+      "am2-mondai.pdf": {
+        "url": "https://www.ipa.go.jp/shiken/mondai-kaiotu/ug65p90000004n2z-att/2010h22h_pm_am2_qs.pdf",
+        "original": "2010h22h_pm_am2_qs.pdf",
+        "bytes": 1026332,
+        "sha256": "3ff9326c8b6b04f704a540c5b2f79e07098d89c3c946f09885b407a695507174",
+        "retrieved": "2026-10-20"
+      },
+      "am2-kaitou.pdf": {
+        "url": "https://www.ipa.go.jp/shiken/mondai-kaiotu/ug65p90000004n2z-att/2010h22h_pm_am2_ans.pdf",
+        "original": "2010h22h_pm_am2_ans.pdf",
+        "bytes": 34752,
+        "sha256": "65fc2498727d63d85419b6a18dbc3ca6fcf60e869b519233dfc7018a2dbf698c",
+        "retrieved": "2026-10-20"
+      }
+    }
+  },
+  "2009-h21-haru": {
+    "title": "平成21年度春期",
+    "page": "https://www.ipa.go.jp/shiken/mondai-kaiotu/2009h21.html",
+    "files": {
+      "am2-mondai.pdf": {
+        "url": "https://www.ipa.go.jp/shiken/mondai-kaiotu/ug65p90000009bhl-att/2009h21h_pm_am2_qs.pdf",
+        "original": "2009h21h_pm_am2_qs.pdf",
+        "bytes": 670192,
+        "sha256": "754e606a742808b5bda41dd9dbb6a016f3993a9688a52f4bb5e5248c86766770",
+        "retrieved": "2026-10-20"
+      },
+      "am2-kaitou.pdf": {
+        "url": "https://www.ipa.go.jp/shiken/mondai-kaiotu/ug65p90000009bhl-att/2009h21h_pm_am2_ans.pdf",
+        "original": "2009h21h_pm_am2_ans.pdf",
+        "bytes": 36084,
+        "sha256": "910ab38c05e4d5011e68602a8dcce27954e93fc2e44304982ebc3ccff3aca540",
+        "retrieved": "2026-10-20"
+      }
+    }
+  }
+}

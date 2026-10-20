@@ -1,0 +1,17 @@
+{
+  "name": "project-manager-training-6",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "remoteUser": "node",
+  "containerEnv": {
+    "UV_LINK_MODE": "copy"
+  },
+  "forwardPorts": [5173],
+  "postCreateCommand": "bash .devcontainer/post-create.sh",
+  "customizations": {
+    "vscode": {
+      "extensions": ["mathematic.vscode-pdf"]
+    }
+  }
+}
