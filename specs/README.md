@@ -25,5 +25,5 @@
 
 | 案件 | 状況 |
 | --- | --- |
-| [0001-initial-content](0001-initial-content/README.md) | 着手 |
-| [0002-initial-app](0002-initial-app/README.md) | レビュー待ち |
+| [0001-initial-content](0001-initial-content/README.md) | 確認中 |
+| [0002-initial-app](0002-initial-app/README.md) | 確認中 |

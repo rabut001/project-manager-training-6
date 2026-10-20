@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useRef, useState, type MouseEvent } from "react";
 import { CHOICES, contentUrl, type Choice, type Exam, type Question } from "./exam.ts";
 import {
   clearAnswers,
@@ -32,6 +32,14 @@ function statusLabel(answer: AnswerRecord | undefined, question: Question): stri
 
 function numberLabel(question: Question, answer: AnswerRecord | undefined, checked: boolean): string {
   return `問${question.no}、${checked ? "チェック済み、" : ""}${statusLabel(answer, question)}`;
+}
+
+// マウスやタップで押したあとはフォーカスを外し、続けて Enter などのキー操作が効くようにする。
+// キーボードで押したとき（detail が 0）は、フォーカスを残す。
+function releaseFocus(event: MouseEvent<HTMLButtonElement>) {
+  if (event.detail > 0) {
+    event.currentTarget.blur();
+  }
 }
 
 function useDialog(open: boolean) {
@@ -173,7 +181,10 @@ export function Practice({ exam }: { exam: Exam }) {
                 className={classes.join(" ")}
                 aria-current={item.no === question.no ? "true" : undefined}
                 aria-label={numberLabel(item, record, isChecked)}
-                onClick={() => moveTo(nos.indexOf(item.no))}
+                onClick={(event) => {
+                  releaseFocus(event);
+                  moveTo(nos.indexOf(item.no));
+                }}
               >
                 <span>{item.no}</span>
                 <span className="badges" aria-hidden="true">
@@ -252,14 +263,24 @@ export function Practice({ exam }: { exam: Exam }) {
               className={answer?.choice === choice ? "selected" : undefined}
               aria-pressed={answer?.choice === choice}
               disabled={confirmed}
-              onClick={() => select(choice)}
+              onClick={(event) => {
+                releaseFocus(event);
+                select(choice);
+              }}
             >
               {choice}
             </button>
           ))}
         </div>
         <div className="actions">
-          <button type="button" disabled={index === 0} onClick={() => moveTo(index - 1)}>
+          <button
+            type="button"
+            disabled={index === 0}
+            onClick={(event) => {
+              releaseFocus(event);
+              moveTo(index - 1);
+            }}
+          >
             前へ
           </button>
           <button type="button" className="confirm" disabled={!answer || confirmed} onClick={confirm}>
@@ -268,7 +289,10 @@ export function Practice({ exam }: { exam: Exam }) {
           <button
             type="button"
             disabled={index === nos.length - 1}
-            onClick={() => moveTo(index + 1)}
+            onClick={(event) => {
+              releaseFocus(event);
+              moveTo(index + 1);
+            }}
           >
             次へ
           </button>
