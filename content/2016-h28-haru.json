@@ -1,0 +1,228 @@
+{
+  "id": "2016-h28-haru",
+  "title": "平成28年度春期",
+  "excluded": [
+    {
+      "no": 2,
+      "reason": "IPA の解答例に「誤りにより問題として成立しない」とあるため、問2は収録していません。"
+    }
+  ],
+  "questions": [
+    {
+      "no": 1,
+      "answer": "ア",
+      "image": "2016-h28-haru/q01.webp",
+      "stem": "",
+      "choices": {},
+      "visuals": [],
+      "explanation": ""
+    },
+    {
+      "no": 3,
+      "answer": "イ",
+      "image": "2016-h28-haru/q03.webp",
+      "stem": "",
+      "choices": {},
+      "visuals": [],
+      "explanation": ""
+    },
+    {
+      "no": 4,
+      "answer": "イ",
+      "image": "2016-h28-haru/q04.webp",
+      "stem": "",
+      "choices": {},
+      "visuals": [],
+      "explanation": ""
+    },
+    {
+      "no": 5,
+      "answer": "ウ",
+      "image": "2016-h28-haru/q05.webp",
+      "stem": "",
+      "choices": {},
+      "visuals": [],
+      "explanation": ""
+    },
+    {
+      "no": 6,
+      "answer": "ア",
+      "image": "2016-h28-haru/q06.webp",
+      "stem": "",
+      "choices": {},
+      "visuals": [],
+      "explanation": ""
+    },
+    {
+      "no": 7,
+      "answer": "ウ",
+      "image": "2016-h28-haru/q07.webp",
+      "stem": "",
+      "choices": {},
+      "visuals": [],
+      "explanation": ""
+    },
+    {
+      "no": 8,
+      "answer": "ウ",
+      "image": "2016-h28-haru/q08.webp",
+      "stem": "",
+      "choices": {},
+      "visuals": [],
+      "explanation": ""
+    },
+    {
+      "no": 9,
+      "answer": "ウ",
+      "image": "2016-h28-haru/q09.webp",
+      "stem": "",
+      "choices": {},
+      "visuals": [],
+      "explanation": ""
+    },
+    {
+      "no": 10,
+      "answer": "ウ",
+      "image": "2016-h28-haru/q10.webp",
+      "stem": "",
+      "choices": {},
+      "visuals": [],
+      "explanation": ""
+    },
+    {
+      "no": 11,
+      "answer": "エ",
+      "image": "2016-h28-haru/q11.webp",
+      "stem": "",
+      "choices": {},
+      "visuals": [],
+      "explanation": ""
+    },
+    {
+      "no": 12,
+      "answer": "ウ",
+      "image": "2016-h28-haru/q12.webp",
+      "stem": "",
+      "choices": {},
+      "visuals": [],
+      "explanation": ""
+    },
+    {
+      "no": 13,
+      "answer": "イ",
+      "image": "2016-h28-haru/q13.webp",
+      "stem": "",
+      "choices": {},
+      "visuals": [],
+      "explanation": ""
+    },
+    {
+      "no": 14,
+      "answer": "エ",
+      "image": "2016-h28-haru/q14.webp",
+      "stem": "",
+      "choices": {},
+      "visuals": [],
+      "explanation": ""
+    },
+    {
+      "no": 15,
+      "answer": "ウ",
+      "image": "2016-h28-haru/q15.webp",
+      "stem": "",
+      "choices": {},
+      "visuals": [],
+      "explanation": ""
+    },
+    {
+      "no": 16,
+      "answer": "エ",
+      "image": "2016-h28-haru/q16.webp",
+      "stem": "",
+      "choices": {},
+      "visuals": [],
+      "explanation": ""
+    },
+    {
+      "no": 17,
+      "answer": "イ",
+      "image": "2016-h28-haru/q17.webp",
+      "stem": "",
+      "choices": {},
+      "visuals": [],
+      "explanation": ""
+    },
+    {
+      "no": 18,
+      "answer": "ウ",
+      "image": "2016-h28-haru/q18.webp",
+      "stem": "",
+      "choices": {},
+      "visuals": [],
+      "explanation": ""
+    },
+    {
+      "no": 19,
+      "answer": "エ",
+      "image": "2016-h28-haru/q19.webp",
+      "stem": "",
+      "choices": {},
+      "visuals": [],
+      "explanation": ""
+    },
+    {
+      "no": 20,
+      "answer": "ア",
+      "image": "2016-h28-haru/q20.webp",
+      "stem": "",
+      "choices": {},
+      "visuals": [],
+      "explanation": ""
+    },
+    {
+      "no": 21,
+      "answer": "ウ",
+      "image": "2016-h28-haru/q21.webp",
+      "stem": "",
+      "choices": {},
+      "visuals": [],
+      "explanation": ""
+    },
+    {
+      "no": 22,
+      "answer": "エ",
+      "image": "2016-h28-haru/q22.webp",
+      "stem": "",
+      "choices": {},
+      "visuals": [],
+      "explanation": ""
+    },
+    {
+      "no": 23,
+      "answer": "イ",
+      "image": "2016-h28-haru/q23.webp",
+      "stem": "",
+      "choices": {},
+      "visuals": [],
+      "explanation": ""
+    },
+    {
+      "no": 24,
+      "answer": "イ",
+      "image": "2016-h28-haru/q24.webp",
+      "stem": "",
+      "choices": {},
+      "visuals": [],
+      "explanation": ""
+    },
+    {
+      "no": 25,
+      "answer": "イ",
+      "image": "2016-h28-haru/q25.webp",
+      "stem": "",
+      "choices": {},
+      "visuals": [],
+      "explanation": ""
+    }
+  ]
+}
