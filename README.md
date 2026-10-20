@@ -6,6 +6,14 @@ IPA が公開しているプロジェクトマネージャ試験の午前Ⅱを�
 
 仕様は [AGENTS.md](AGENTS.md) に書いてあります。アプリの修正は [specs/](specs/README.md) の手順で進めます。
 
+## このリポジトリについて（比較用）
+
+このリポジトリは、Claude Code と OpenAI Codex を比較するために、**同じ指示をそれぞれに与えて、結果を比べる**目的で作成したものです。
+
+- このリポジトリは **Claude Code**（モデル: Sonnet 5.5、モード: high）が作成しました。
+- 与えた指示は、参照元リポジトリ [rabut001/system-arch-training](https://github.com/rabut001/system-arch-training)（システムアーキテクト 午前Ⅱ 演習）の資産を参考に、プロジェクトマネージャの午前Ⅱについて同様のアプリを作る、というものです。指示の全文と、作成の過程は [chat-exports/](chat-exports/2026-10-20-1108/chat.md) に残っています。
+- 実装、IPA の過去問題からの問題抽出、解説の作成を、すべて Claude Code が行いました。解説は別の Claude Code のエージェントがレビューしています。人が書いた解説は含みません。
+
 ## フォルダ
 
 | パス | 内容 |
