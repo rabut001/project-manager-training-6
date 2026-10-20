@@ -17,6 +17,7 @@ IPA が公開しているプロジェクトマネージャ試験の午前Ⅱを�
 | `.devcontainer/` | 開発コンテナ（Node.js 24、uv、tesseract、GitHub CLI） |
 | `.github/workflows/` | 検証と GitHub Pages への公開 |
 | `specs/` | アプリを修正するときの管理資料 |
+| `chat-exports/` | 開発時のチャットのログ（資産ではなく、仕様の参照先でもない） |
 
 ## 開発
 
