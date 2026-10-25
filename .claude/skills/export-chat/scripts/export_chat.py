@@ -66,6 +66,8 @@ def clean_user(text: str) -> str:
 
 def load(paths: list[Path]) -> list[dict]:
     entries: list[dict] = []
+    # 再開や分岐でできたトランスクリプトは、前の履歴を同じ uuid のまま引き継ぐ。一度読んだエントリは捨てる。
+    seen: set[str] = set()
     for path in paths:
         for line_no, line in enumerate(path.read_text(encoding="utf-8").splitlines(), 1):
             if not line.strip():
@@ -75,6 +77,11 @@ def load(paths: list[Path]) -> list[dict]:
             except json.JSONDecodeError as exc:
                 raise SystemExit(f"{path}:{line_no}: JSON として読めません: {exc}") from exc
             if entry.get("type") in ("user", "assistant") and not entry.get("isSidechain") and entry.get("timestamp"):
+                uuid = entry.get("uuid")
+                if uuid in seen:
+                    continue
+                if uuid:
+                    seen.add(uuid)
                 entries.append(entry)
     entries.sort(key=lambda e: e["timestamp"])
     return entries
